@@ -1,9 +1,14 @@
-function setup() {
-  createCanvas (windowWidth, windowHeight);
+var song;
+
+function preLoad() {
+  song = loadSound("Umi.mp3");
 }
 
-function draw () {
-  background(51);
+function setup () {
+  createCanvas(200, 200);
+  song.play();
+}
 
-  ellipse(200, 200, 26, 26);
+function draw() {
+  background(51);
 }
