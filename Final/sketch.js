@@ -9,7 +9,7 @@ var amp;
 var volhistory = [];
 
 function preload() {
-  song = loadSound('vulf.mp3');
+  song = loadSound('Vulf.mp3');
 }
 
 function setup () {
